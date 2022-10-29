@@ -27,6 +27,12 @@ int getCount(int coins[], int n, int sum)
             dp[i][j]+=dp[i-coins[j-1]][j];
         }
     }//I am so sad that I could die right now one day i will be so happy that I could die then.
+
+     
+    // still sad this is almost 1year after the above one. I will change my life tonight. I will set the path
+    //ablaze with my will power. 13-10-2022 .(I am listening to Mysterious girl-Peter Andre)
+    //it's 28-10-2022 I didn't set ablaze anything lol. Today I got an ultimatum on my job. I have 2 months
+    //to change my job that too I am not sure about. Still, I am going to start studying today.
     
     return dp[sum][n];
     
